@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://moqui.org/xsd/xml-screen-1.5.xsd"
+	require-authentication="true" screen-theme-type-enum-id="STT_INTERNAL"
+	default-menu-title="医院门诊挂号系统">
+	<subscreens default-item="dashboard" />
+	<widgets>
+		<subscreens-active />
+	</widgets>
+</screen>

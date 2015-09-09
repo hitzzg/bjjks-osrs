@@ -1,2 +1,2 @@
-# bjjks-osrs
-挂号系统
+医院门诊挂号系统
+Hospital outpatient service register system
