@@ -2,7 +2,7 @@
 
 <screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://moqui.org/xsd/xml-screen-1.5.xsd"
-	require-authentication="true" default-menu-title="挂号"
+	require-authentication="true" default-menu-title="挂号"  menu-image="glyphicon glyphicon-flash" menu-image-type="icon"
 	default-menu-index="1">
 
 	<widgets>
