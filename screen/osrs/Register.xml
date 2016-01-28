@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://moqui.org/xsd/xml-screen-1.6.xsd" require-authentication="true" default-menu-title="挂号" default-menu-include="false" menu-image="fa fa-file-text-o"
+<screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://moqui.org/xsd/xml-screen-1.6.xsd" require-authentication="true" default-menu-title="挂号" default-menu-include="true" menu-image="fa fa-file-text-o"
 	menu-image-type="icon" default-menu-index="1">
-	<actions>
-<entity-find-one entity-name="smj.his.IndividualPatientData" value-field="register"/>
-	</actions>
+
 	<widgets>
 		<container-box>
 			<box-header>
@@ -12,11 +10,11 @@
 				<label text="挂号" type="h5" style="box-title" />
 			</box-header>
 			<box-toolbar>
-				<!-- <link url="" text="读卡" parameter-map="[userId:userId]" /> -->
+				<link url="" text="读卡" parameter-map="[userId:userId]" />
 			</box-toolbar>
 			<box-body>
 				<form-single name="register">
-					<auto-fields-entity entity-name="smj.his.IndividualPatientData" />
+					
 				</form-single>
 			</box-body>
 		</container-box>
